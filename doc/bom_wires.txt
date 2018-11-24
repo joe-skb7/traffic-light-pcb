@@ -1,0 +1,26 @@
+1. Cable: Phone cable (4 wires, flat, copper, multicore/flexible).
+   Qty: 100 meters (10 traffic lights, 10 meters per 1 traffic light).
+   Possible option: [1].
+
+2. Plugs: RJ9 (4P4C), for cable.
+   Qty: 20 pcs (we need 10pcs, but let's buy 10 extra just in case).
+   Possible option: [2].
+
+3. Jacks: RJ9 (4P4C), for mounting on PCB, angled.
+   Qty: 10 pcs.
+   Possible option: [3].
+
+4. Crimping tool for RJ9 (4P4C).
+   Possible option: Hanlong HT-2094C [4].
+
+
+References
+----------
+
+[1] https://e-server.com.ua/kabel-vitaya-para/telefonnyj-kabel/telefonnyj-kabel-4-zhily-ploskij-mednyj-chernyj-detail
+
+[2] https://www.rcscomponents.kiev.ua/product/rj9-vilka-4p4c-kls12-rj11-4p4c-01_72297.html
+
+[3] https://www.rcscomponents.kiev.ua/product/gnezdo-4p4c-kls12-123-4p4s-w-1-01-2-kls_72300.html
+
+[4] https://e-server.com.ua/instrumenty-i-testery/instrumenty/instrument-dlya-obzhimaniya-konnektorov-rj-11-4p4c-4p2c-hanlong-detail

@@ -1,0 +1,59 @@
+LED driver calculation
+======================
+
+
+LED voltage drop:
+
+    V_LED = 2 V
+
+LED nominal current:
+
+    I_LED = 20 mA
+
+LED count (per one driver):
+
+    n_LED = 5
+
+Total load current (because LEDs are connected in series):
+
+    I_Load = I_LED = 20 mA
+
+Min. driver voltage must be:
+
+    Vcc_min = n_LED * V_LED = 10 V
+
+Let's take driver voltage:
+
+    Vcc = 12 V
+
+Let's use BC547 transistor (choosen by current, voltage and hFE params).
+Next data was obtained from BC547 datasheet.
+
+We will use controlling voltage:
+
+    V_ctrl = 5 V
+
+Driver's Q1 collector current:
+
+    I_c = I_Load = 20 mA
+
+Transistor Q1 opens when:
+
+    V_BE = 0.75 V
+
+Sense resistor resistance must be (because LEDs connected in series, not in
+parallel):
+
+    R1 = V_BE / I_LED = 0.75 / 0.02 = 37.5 Ohm = 39 Ohm   // by E24
+
+Minimal hFE (worst case gain), for BC547A:
+
+    hFE = 110
+
+Base current must be:
+
+    I_b = I_c / hFE = 0.02 / 110 = 0.182 mA = 0.3 mA  // to have a safety margin
+
+Then R2 resistance:
+
+    R2 = (V_ctrl - V_BE - V_R1) / I_b = 11.667 kOhm = 10 kOhm  // E24
