@@ -1,0 +1,183 @@
+EESchema Schematic File Version 4
+LIBS:light-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Traffic Light"
+Date "2018-11-23"
+Rev "A"
+Comp "GlobalLogic"
+Comment1 "Author: Sam Protsenko <semen.protsenko@globallogic.com>"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5BF80B77
+P 4850 3600
+F 0 "D1" H 4842 3345 50  0000 C CNN
+F 1 "Red" H 4842 3436 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 4850 3600 50  0001 C CNN
+F 3 "~" H 4850 3600 50  0001 C CNN
+	1    4850 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5BF80C28
+P 5250 3600
+F 0 "D2" H 5242 3345 50  0000 C CNN
+F 1 "Red" H 5242 3436 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5250 3600 50  0001 C CNN
+F 3 "~" H 5250 3600 50  0001 C CNN
+	1    5250 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5BF80C8A
+P 5650 3600
+F 0 "D3" H 5642 3345 50  0000 C CNN
+F 1 "Red" H 5642 3436 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5650 3600 50  0001 C CNN
+F 3 "~" H 5650 3600 50  0001 C CNN
+	1    5650 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5BF80CC6
+P 6050 3600
+F 0 "D4" H 6042 3345 50  0000 C CNN
+F 1 "Red" H 6042 3436 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 6050 3600 50  0001 C CNN
+F 3 "~" H 6050 3600 50  0001 C CNN
+	1    6050 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5BF80CEA
+P 6450 3600
+F 0 "D5" H 6442 3345 50  0000 C CNN
+F 1 "Red" H 6442 3436 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 6450 3600 50  0001 C CNN
+F 3 "~" H 6450 3600 50  0001 C CNN
+	1    6450 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5BF80D19
+P 4850 4000
+F 0 "D6" H 4842 3745 50  0000 C CNN
+F 1 "Green" H 4842 3836 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 4850 4000 50  0001 C CNN
+F 3 "~" H 4850 4000 50  0001 C CNN
+	1    4850 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 5BF80D72
+P 5250 4000
+F 0 "D7" H 5242 3745 50  0000 C CNN
+F 1 "Green" H 5242 3836 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5250 4000 50  0001 C CNN
+F 3 "~" H 5250 4000 50  0001 C CNN
+	1    5250 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 5BF80DA4
+P 5650 4000
+F 0 "D8" H 5642 3745 50  0000 C CNN
+F 1 "Green" H 5642 3836 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5650 4000 50  0001 C CNN
+F 3 "~" H 5650 4000 50  0001 C CNN
+	1    5650 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 5BF80DD2
+P 6050 4000
+F 0 "D9" H 6042 3745 50  0000 C CNN
+F 1 "Green" H 6042 3836 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 6050 4000 50  0001 C CNN
+F 3 "~" H 6050 4000 50  0001 C CNN
+	1    6050 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 5BF80E00
+P 6450 4000
+F 0 "D10" H 6442 3745 50  0000 C CNN
+F 1 "Green" H 6442 3836 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 6450 4000 50  0001 C CNN
+F 3 "~" H 6450 4000 50  0001 C CNN
+	1    6450 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 3600 5100 3600
+Wire Wire Line
+	5400 3600 5500 3600
+Wire Wire Line
+	5800 3600 5900 3600
+Wire Wire Line
+	6200 3600 6300 3600
+Wire Wire Line
+	5000 4000 5100 4000
+Wire Wire Line
+	5400 4000 5500 4000
+Wire Wire Line
+	5800 4000 5900 4000
+Wire Wire Line
+	6200 4000 6300 4000
+Wire Wire Line
+	4700 3600 4600 3600
+Wire Wire Line
+	4600 4000 4700 4000
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5BF8121F
+P 6950 3850
+F 0 "J1" H 7030 3892 50  0000 L CNN
+F 1 "Conn_01x03" H 7030 3801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 6950 3850 50  0001 C CNN
+F 3 "~" H 6950 3850 50  0001 C CNN
+	1    6950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3600 6650 3600
+Wire Wire Line
+	6650 3600 6650 3750
+Wire Wire Line
+	6650 3750 6750 3750
+Wire Wire Line
+	6750 3850 6650 3850
+Wire Wire Line
+	6650 3850 6650 4000
+Wire Wire Line
+	6650 4000 6600 4000
+Wire Wire Line
+	4600 3600 4600 3800
+Wire Wire Line
+	4600 3800 4500 3800
+Wire Wire Line
+	4500 3800 4500 4150
+Wire Wire Line
+	4500 4150 6750 4150
+Wire Wire Line
+	6750 4150 6750 3950
+Connection ~ 4600 3800
+Wire Wire Line
+	4600 3800 4600 4000
+$EndSCHEMATC
