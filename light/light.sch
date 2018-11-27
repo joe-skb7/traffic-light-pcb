@@ -144,40 +144,38 @@ Wire Wire Line
 	4700 3600 4600 3600
 Wire Wire Line
 	4600 4000 4700 4000
-$Comp
-L Connector_Generic:Conn_01x03 J1
-U 1 1 5BF8121F
-P 6950 3850
-F 0 "J1" H 7030 3892 50  0000 L CNN
-F 1 "Conn_01x03" H 7030 3801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 6950 3850 50  0001 C CNN
-F 3 "~" H 6950 3850 50  0001 C CNN
-	1    6950 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 3600 6650 3600
-Wire Wire Line
-	6650 3600 6650 3750
-Wire Wire Line
-	6650 3750 6750 3750
-Wire Wire Line
-	6750 3850 6650 3850
-Wire Wire Line
-	6650 3850 6650 4000
-Wire Wire Line
-	6650 4000 6600 4000
 Wire Wire Line
 	4600 3600 4600 3800
 Wire Wire Line
 	4600 3800 4500 3800
 Wire Wire Line
 	4500 3800 4500 4150
-Wire Wire Line
-	4500 4150 6750 4150
-Wire Wire Line
-	6750 4150 6750 3950
 Connection ~ 4600 3800
 Wire Wire Line
 	4600 3800 4600 4000
+$Comp
+L Connector:4P4C J1
+U 1 1 5BF963AC
+P 7250 3800
+F 0 "J1" H 6920 3804 50  0000 R CNN
+F 1 "4P4C" H 6920 3895 50  0000 R CNN
+F 2 "Connector_RJ9:RJ9_KLS_12-123-4P" V 7250 3850 50  0001 C CNN
+F 3 "~" V 7250 3850 50  0001 C CNN
+	1    7250 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 3800 6750 3800
+Wire Wire Line
+	6750 3800 6750 3600
+Wire Wire Line
+	6750 3900 6850 3900
+Wire Wire Line
+	6750 4150 6750 3900
+Wire Wire Line
+	4500 4150 6750 4150
+Wire Wire Line
+	6600 3600 6750 3600
+Wire Wire Line
+	6600 4000 6850 4000
 $EndSCHEMATC
