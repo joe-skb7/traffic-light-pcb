@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MP1584_D-SUN
+D MP1584 module
+K MP1584 D-SUN
+F https://www.hotmcu.com/mp1584-buck-step-down-3a-adjustable-regulator-module-p-82.html
+$ENDCMP
+#
+#End Doc Library
