@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name Connector_RJ9)(type KiCad)(uri ${KIPRJMOD}/../lib/Connector_RJ9.pretty)(options "")(descr "My 4P4C footprint library"))
+  (lib (name Connector_RJ9)(type KiCad)(uri ${KIPRJMOD}/../lib/Connector_RJ9.pretty)(options "")(descr ""))
+  (lib (name Module_FTDI232)(type KiCad)(uri ${KIPRJMOD}/../lib/Module_FTDI232.pretty)(options "")(descr ""))
+  (lib (name Module_MP1584)(type KiCad)(uri ${KIPRJMOD}/../lib/Module_MP1584.pretty)(options "")(descr ""))
 )
