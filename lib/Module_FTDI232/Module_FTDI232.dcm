@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FTDI232
+D FT232RL module
+K FTDI FT232RL YP-05 TE203
+F https://www.amazon.com/XCSOURCE-FT232RL-Adapter-Arduino-TE203/dp/B00HSX3CXE
+$ENDCMP
+#
+#End Doc Library
