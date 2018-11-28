@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Module_FTDI232)(type Legacy)(uri ${KIPRJMOD}/../lib/Module_FTDI232/Module_FTDI232.lib)(options "")(descr ""))
+  (lib (name Module_MP1584)(type Legacy)(uri ${KIPRJMOD}/../lib/Module_MP1584/Module_MP1584.lib)(options "")(descr ""))
+)
