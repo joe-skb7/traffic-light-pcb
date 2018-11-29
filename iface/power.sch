@@ -1,0 +1,329 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 13
+Title "Power scheme"
+Date "2018-11-29"
+Rev "A"
+Comp "GlobalLogic"
+Comment1 "Author: Sam Protsenko <semen.protsenko@globallogic.com>"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Barrel_Jack J?
+U 1 1 5C00291F
+P 6000 2550
+AR Path="/5C1EEA91/5C00291F" Ref="J?"  Part="1" 
+AR Path="/5C21A6D9/5C00291F" Ref="J?"  Part="1" 
+AR Path="/5BFF6EC8/5C00291F" Ref="J?"  Part="1" 
+AR Path="/5C004DBD/5C00291F" Ref="J1"  Part="1" 
+F 0 "J1" H 6055 2875 50  0000 C CNN
+F 1 "Barrel_Jack" H 6055 2784 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 6050 2510 50  0001 C CNN
+F 3 "~" H 6050 2510 50  0001 C CNN
+	1    6000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C002926
+P 6400 2700
+AR Path="/5C1EEA91/5C002926" Ref="#PWR?"  Part="1" 
+AR Path="/5C21A6D9/5C002926" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C002926" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C002926" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 6400 2450 50  0001 C CNN
+F 1 "GND" H 6405 2527 50  0000 C CNN
+F 2 "" H 6400 2700 50  0001 C CNN
+F 3 "" H 6400 2700 50  0001 C CNN
+	1    6400 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2700 6400 2650
+Wire Wire Line
+	6400 2650 6300 2650
+$Comp
+L power:+12V #PWR?
+U 1 1 5C00292E
+P 6400 2400
+AR Path="/5C1EEA91/5C00292E" Ref="#PWR?"  Part="1" 
+AR Path="/5C21A6D9/5C00292E" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C00292E" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C00292E" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 6400 2250 50  0001 C CNN
+F 1 "+12V" H 6415 2573 50  0000 C CNN
+F 2 "" H 6400 2400 50  0001 C CNN
+F 3 "" H 6400 2400 50  0001 C CNN
+	1    6400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2450 6400 2450
+Wire Wire Line
+	6400 2450 6400 2400
+$Comp
+L power:+12V #PWR?
+U 1 1 5C002936
+P 5400 3400
+AR Path="/5C1EEA91/5C002936" Ref="#PWR?"  Part="1" 
+AR Path="/5C21A6D9/5C002936" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C002936" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C002936" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 5400 3250 50  0001 C CNN
+F 1 "+12V" H 5415 3573 50  0000 C CNN
+F 2 "" H 5400 3400 50  0001 C CNN
+F 3 "" H 5400 3400 50  0001 C CNN
+	1    5400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C00293C
+P 5400 4000
+AR Path="/5C1EEA91/5C00293C" Ref="#PWR?"  Part="1" 
+AR Path="/5C21A6D9/5C00293C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C00293C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C00293C" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 5400 3750 50  0001 C CNN
+F 1 "GND" H 5405 3827 50  0000 C CNN
+F 2 "" H 5400 4000 50  0001 C CNN
+F 3 "" H 5400 4000 50  0001 C CNN
+	1    5400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C002942
+P 6700 2550
+AR Path="/5C1EEA91/5C002942" Ref="C?"  Part="1" 
+AR Path="/5C21A6D9/5C002942" Ref="C?"  Part="1" 
+AR Path="/5BFF6EC8/5C002942" Ref="C?"  Part="1" 
+AR Path="/5C004DBD/5C002942" Ref="C1"  Part="1" 
+F 0 "C1" H 6818 2596 50  0000 L CNN
+F 1 "100uF x 25V" H 6818 2505 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 6738 2400 50  0001 C CNN
+F 3 "~" H 6700 2550 50  0001 C CNN
+	1    6700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C002949
+P 6400 4000
+AR Path="/5C1EEA91/5C002949" Ref="#PWR?"  Part="1" 
+AR Path="/5C21A6D9/5C002949" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C002949" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C002949" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 6400 3750 50  0001 C CNN
+F 1 "GND" H 6405 3827 50  0000 C CNN
+F 2 "" H 6400 4000 50  0001 C CNN
+F 3 "" H 6400 4000 50  0001 C CNN
+	1    6400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C00294F
+P 6400 3400
+AR Path="/5C1EEA91/5C00294F" Ref="#PWR?"  Part="1" 
+AR Path="/5C21A6D9/5C00294F" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C00294F" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C00294F" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 6400 3250 50  0001 C CNN
+F 1 "+5V" H 6415 3573 50  0000 C CNN
+F 2 "" H 6400 3400 50  0001 C CNN
+F 3 "" H 6400 3400 50  0001 C CNN
+	1    6400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C002955
+P 6700 3700
+AR Path="/5C1EEA91/5C002955" Ref="C?"  Part="1" 
+AR Path="/5C21A6D9/5C002955" Ref="C?"  Part="1" 
+AR Path="/5BFF6EC8/5C002955" Ref="C?"  Part="1" 
+AR Path="/5C004DBD/5C002955" Ref="C2"  Part="1" 
+F 0 "C2" H 6818 3746 50  0000 L CNN
+F 1 "100uF x 25V" H 6818 3655 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 6738 3550 50  0001 C CNN
+F 3 "~" H 6700 3700 50  0001 C CNN
+	1    6700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C00295C
+P 6700 2400
+AR Path="/5C1EEA91/5C00295C" Ref="#PWR?"  Part="1" 
+AR Path="/5C21A6D9/5C00295C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C00295C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C00295C" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 6700 2250 50  0001 C CNN
+F 1 "+12V" H 6715 2573 50  0000 C CNN
+F 2 "" H 6700 2400 50  0001 C CNN
+F 3 "" H 6700 2400 50  0001 C CNN
+	1    6700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C002962
+P 6700 2700
+AR Path="/5C1EEA91/5C002962" Ref="#PWR?"  Part="1" 
+AR Path="/5C21A6D9/5C002962" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C002962" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C002962" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 6700 2450 50  0001 C CNN
+F 1 "GND" H 6705 2527 50  0000 C CNN
+F 2 "" H 6700 2700 50  0001 C CNN
+F 3 "" H 6700 2700 50  0001 C CNN
+	1    6700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C002968
+P 6700 3400
+AR Path="/5C1EEA91/5C002968" Ref="#PWR?"  Part="1" 
+AR Path="/5C21A6D9/5C002968" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C002968" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C002968" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 6700 3250 50  0001 C CNN
+F 1 "+5V" H 6715 3573 50  0000 C CNN
+F 2 "" H 6700 3400 50  0001 C CNN
+F 3 "" H 6700 3400 50  0001 C CNN
+	1    6700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C00296E
+P 6700 4000
+AR Path="/5C1EEA91/5C00296E" Ref="#PWR?"  Part="1" 
+AR Path="/5C21A6D9/5C00296E" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C00296E" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C00296E" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 6700 3750 50  0001 C CNN
+F 1 "GND" H 6705 3827 50  0000 C CNN
+F 2 "" H 6700 4000 50  0001 C CNN
+F 3 "" H 6700 4000 50  0001 C CNN
+	1    6700 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3500 5400 3500
+Wire Wire Line
+	5400 3500 5400 3400
+Wire Wire Line
+	5500 3600 5400 3600
+Wire Wire Line
+	5400 3600 5400 3500
+Connection ~ 5400 3500
+Wire Wire Line
+	5500 3800 5400 3800
+Wire Wire Line
+	5400 3800 5400 3900
+Wire Wire Line
+	5500 3900 5400 3900
+Connection ~ 5400 3900
+Wire Wire Line
+	5400 3900 5400 4000
+Wire Wire Line
+	6300 3600 6400 3600
+Wire Wire Line
+	6400 3600 6400 3500
+Wire Wire Line
+	6300 3500 6400 3500
+Connection ~ 6400 3500
+Wire Wire Line
+	6400 3500 6400 3400
+Wire Wire Line
+	6300 3800 6400 3800
+Wire Wire Line
+	6400 3800 6400 3900
+Wire Wire Line
+	6300 3900 6400 3900
+Connection ~ 6400 3900
+Wire Wire Line
+	6400 3900 6400 4000
+Wire Wire Line
+	6700 3550 6700 3400
+Wire Wire Line
+	6700 3850 6700 4000
+$Comp
+L Module_MP1584:MP1584_D-SUN A?
+U 1 1 5C00298A
+P 5900 3700
+AR Path="/5C1EEA91/5C00298A" Ref="A?"  Part="1" 
+AR Path="/5BFF6EC8/5C00298A" Ref="A?"  Part="1" 
+AR Path="/5C004DBD/5C00298A" Ref="A1"  Part="1" 
+F 0 "A1" H 5900 4167 50  0000 C CNN
+F 1 "MP1584_D-SUN" H 5900 4076 50  0000 C CNN
+F 2 "Module_MP1584:MP1584_D-SUN" H 5900 3350 50  0001 C CNN
+F 3 "https://www.hotmcu.com/mp1584-buck-step-down-3a-adjustable-regulator-module-p-82.html" H 4050 4800 50  0001 C CNN
+	1    5900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C003470
+P 3200 3150
+AR Path="/5C003470" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C003470" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C003470" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 3200 2900 50  0001 C CNN
+F 1 "GND" H 3205 2977 50  0000 C CNN
+F 2 "" H 3200 3150 50  0001 C CNN
+F 3 "" H 3200 3150 50  0001 C CNN
+	1    3200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C003476
+P 3600 3150
+AR Path="/5C003476" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF6EC8/5C003476" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DBD/5C003476" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 3600 3000 50  0001 C CNN
+F 1 "+12V" H 3615 3323 50  0000 C CNN
+F 2 "" H 3600 3150 50  0001 C CNN
+F 3 "" H 3600 3150 50  0001 C CNN
+	1    3600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5C00347C
+P 3200 3150
+AR Path="/5C00347C" Ref="#FLG?"  Part="1" 
+AR Path="/5BFF6EC8/5C00347C" Ref="#FLG?"  Part="1" 
+AR Path="/5C004DBD/5C00347C" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 3200 3225 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 3324 50  0000 C CNN
+F 2 "" H 3200 3150 50  0001 C CNN
+F 3 "~" H 3200 3150 50  0001 C CNN
+	1    3200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5C003482
+P 3600 3150
+AR Path="/5C003482" Ref="#FLG?"  Part="1" 
+AR Path="/5BFF6EC8/5C003482" Ref="#FLG?"  Part="1" 
+AR Path="/5C004DBD/5C003482" Ref="#FLG02"  Part="1" 
+F 0 "#FLG02" H 3600 3225 50  0001 C CNN
+F 1 "PWR_FLAG" H 3600 3323 50  0000 C CNN
+F 2 "" H 3600 3150 50  0001 C CNN
+F 3 "~" H 3600 3150 50  0001 C CNN
+	1    3600 3150
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
