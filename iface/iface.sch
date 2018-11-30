@@ -1,11 +1,12 @@
 EESchema Schematic File Version 4
+LIBS:iface-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 13
 Title "Traffic Light Interface Board"
-Date "2018-11-29"
+Date "2018-11-30"
 Rev "A"
 Comp "GlobalLogic"
 Comment1 "Author: Sam Protsenko <semen.protsenko@globallogic.com>"
@@ -16,89 +17,89 @@ $EndDescr
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5BF82051
-P 900 6450
-F 0 "H1" H 1000 6501 50  0000 L CNN
-F 1 "MountingHole_Pad" H 1000 6410 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 900 6450 50  0001 C CNN
-F 3 "~" H 900 6450 50  0001 C CNN
-	1    900  6450
+P 850 6500
+F 0 "H1" H 950 6551 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 6460 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 850 6500 50  0001 C CNN
+F 3 "~" H 850 6500 50  0001 C CNN
+	1    850  6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5BF8271A
-P 1900 6450
-F 0 "H3" H 2000 6501 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2000 6410 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1900 6450 50  0001 C CNN
-F 3 "~" H 1900 6450 50  0001 C CNN
-	1    1900 6450
+P 1850 6500
+F 0 "H3" H 1950 6551 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1950 6460 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1850 6500 50  0001 C CNN
+F 3 "~" H 1850 6500 50  0001 C CNN
+	1    1850 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5BF828B0
-P 900 7250
-F 0 "H2" H 1000 7301 50  0000 L CNN
-F 1 "MountingHole_Pad" H 1000 7210 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 900 7250 50  0001 C CNN
-F 3 "~" H 900 7250 50  0001 C CNN
-	1    900  7250
+P 850 7300
+F 0 "H2" H 950 7351 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 7260 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 850 7300 50  0001 C CNN
+F 3 "~" H 850 7300 50  0001 C CNN
+	1    850  7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5BF829D2
-P 1900 7250
-F 0 "H4" H 2000 7301 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2000 7210 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1900 7250 50  0001 C CNN
-F 3 "~" H 1900 7250 50  0001 C CNN
-	1    1900 7250
+P 1850 7300
+F 0 "H4" H 1950 7351 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1950 7260 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1850 7300 50  0001 C CNN
+F 3 "~" H 1850 7300 50  0001 C CNN
+	1    1850 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 5BF8382B
-P 1900 6550
-F 0 "#PWR03" H 1900 6300 50  0001 C CNN
-F 1 "GND" H 1905 6377 50  0000 C CNN
-F 2 "" H 1900 6550 50  0001 C CNN
-F 3 "" H 1900 6550 50  0001 C CNN
-	1    1900 6550
+P 1850 6600
+F 0 "#PWR03" H 1850 6350 50  0001 C CNN
+F 1 "GND" H 1855 6427 50  0000 C CNN
+F 2 "" H 1850 6600 50  0001 C CNN
+F 3 "" H 1850 6600 50  0001 C CNN
+	1    1850 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5BF838D4
-P 900 6550
-F 0 "#PWR01" H 900 6300 50  0001 C CNN
-F 1 "GND" H 905 6377 50  0000 C CNN
-F 2 "" H 900 6550 50  0001 C CNN
-F 3 "" H 900 6550 50  0001 C CNN
-	1    900  6550
+P 850 6600
+F 0 "#PWR01" H 850 6350 50  0001 C CNN
+F 1 "GND" H 855 6427 50  0000 C CNN
+F 2 "" H 850 6600 50  0001 C CNN
+F 3 "" H 850 6600 50  0001 C CNN
+	1    850  6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5BF8397D
-P 900 7350
-F 0 "#PWR02" H 900 7100 50  0001 C CNN
-F 1 "GND" H 905 7177 50  0000 C CNN
-F 2 "" H 900 7350 50  0001 C CNN
-F 3 "" H 900 7350 50  0001 C CNN
-	1    900  7350
+P 850 7400
+F 0 "#PWR02" H 850 7150 50  0001 C CNN
+F 1 "GND" H 855 7227 50  0000 C CNN
+F 2 "" H 850 7400 50  0001 C CNN
+F 3 "" H 850 7400 50  0001 C CNN
+	1    850  7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5BF83A26
-P 1900 7350
-F 0 "#PWR04" H 1900 7100 50  0001 C CNN
-F 1 "GND" H 1905 7177 50  0000 C CNN
-F 2 "" H 1900 7350 50  0001 C CNN
-F 3 "" H 1900 7350 50  0001 C CNN
-	1    1900 7350
+P 1850 7400
+F 0 "#PWR04" H 1850 7150 50  0001 C CNN
+F 1 "GND" H 1855 7227 50  0000 C CNN
+F 2 "" H 1850 7400 50  0001 C CNN
+F 3 "" H 1850 7400 50  0001 C CNN
+	1    1850 7400
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -331,8 +332,19 @@ F1 "driver.sch" 50
 F2 "Red" I L 6700 5600 50 
 F3 "Green" I R 7300 5600 50 
 $EndSheet
-Wire Bus Line
-	6400 900  6400 5500
+$Comp
+L Graphic:SYM_ESD_Large #SYM1
+U 1 1 5C07C785
+P 1350 5750
+F 0 "#SYM1" H 1350 5950 50  0001 C CNN
+F 1 "SYM_ESD_Large" H 1350 5500 50  0001 C CNN
+F 2 "" H 1345 5720 50  0001 C CNN
+F 3 "~" H 1345 5720 50  0001 C CNN
+	1    1350 5750
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	7600 1200 7600 6000
+Wire Bus Line
+	6400 900  6400 5500
 $EndSCHEMATC
