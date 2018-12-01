@@ -253,20 +253,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 7800 2400 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Module_FTDI232:FTDI232 A?
-U 1 1 5C1F605B
-P 1500 2450
-AR Path="/5C1EEA91/5C1F605B" Ref="A?"  Part="1" 
-AR Path="/5C003E55/5C1F605B" Ref="A?"  Part="1" 
-AR Path="/5C006D16/5C1F605B" Ref="A2"  Part="1" 
-F 0 "A2" H 2050 3200 50  0000 R CNN
-F 1 "FTDI232" H 2250 3100 50  0000 R CNN
-F 2 "Module_FTDI232:FTDI232" H 2400 1750 50  0001 C CNN
-F 3 "https://www.amazon.com/XCSOURCE-FT232RL-Adapter-Arduino-TE203/dp/B00HSX3CXE" V 1350 3700 50  0001 C CNN
-	1    1500 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5C1F608D
 P 3650 1350
@@ -1010,6 +996,17 @@ Text Label 6550 6200 0    50   ~ 0
 G[0..9]
 Text Label 6800 700  2    50   ~ 0
 R[0..9]
+$Comp
+L Module_FTDI232:FTDI232 A2
+U 1 1 5C02280C
+P 1500 2450
+F 0 "A2" H 870 2496 50  0000 R CNN
+F 1 "FTDI232" H 870 2405 50  0000 R CNN
+F 2 "Module_FTDI232:FTDI232" H 2400 1750 50  0001 C CNN
+F 3 "https://www.amazon.com/XCSOURCE-FT232RL-Adapter-Arduino-TE203/dp/B00HSX3CXE" V 1350 3700 50  0001 C CNN
+	1    1500 2450
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	2900 700  2900 2650
 Wire Bus Line

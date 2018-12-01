@@ -333,14 +333,25 @@ F2 "Red" I L 6700 5600 50
 F3 "Green" I R 7300 5600 50 
 $EndSheet
 $Comp
-L Graphic:SYM_ESD_Large #SYM1
+L Graphic:SYM_ESD_Large SYM1
 U 1 1 5C07C785
-P 1350 5750
-F 0 "#SYM1" H 1350 5950 50  0001 C CNN
-F 1 "SYM_ESD_Large" H 1350 5500 50  0001 C CNN
-F 2 "" H 1345 5720 50  0001 C CNN
-F 3 "~" H 1345 5720 50  0001 C CNN
-	1    1350 5750
+P 1000 5750
+F 0 "SYM1" H 1000 5950 50  0001 C CNN
+F 1 "SYM_ESD_Large" H 1000 5500 50  0001 C CNN
+F 2 "Symbol:ESD-Logo_22x20mm_SilkScreen" H 995 5720 50  0001 C CNN
+F 3 "~" H 995 5720 50  0001 C CNN
+	1    1000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small SYM2
+U 1 1 5C032335
+P 1600 5800
+F 0 "SYM2" H 1600 6075 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 1600 5575 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_19x20mm_SilkScreen" H 1600 5800 50  0001 C CNN
+F 3 "~" H 1600 5800 50  0001 C CNN
+	1    1600 5800
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
