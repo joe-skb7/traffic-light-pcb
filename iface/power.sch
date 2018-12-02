@@ -499,6 +499,6 @@ Wire Wire Line
 	6000 2550 6000 2250
 Wire Wire Line
 	5800 2550 6000 2550
-Text Notes 4850 1800 0    50   ~ 0
-Input voltage should be +15V if LEDs have forward voltage higher than 2.2V
+Text Notes 4700 1600 0    50   ~ 0
+Notes:\n\n1. If LEDs have forward voltage higher than 2.2V, input voltage (J1) should be +15V \n2. Use only center positive adapters; there is no reverse voltage protection in this scheme\n3. MP1584 module must be tuned to provide 5V on output pins, then poured with nail polish\n4. It doesn't matter what input voltage is, MP1584 will issue the same output voltage
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 13
+Sheet 4 13
 Title "LED Driver"
 Date "2018-11-30"
 Rev "A"
@@ -1915,7 +1915,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 2600 6800 2600
 Wire Wire Line
-	6700 2600 6700 2300
+	6700 2600 6700 2400
 Text HLabel 4300 2800 0    50   Input ~ 0
 Red
 Wire Wire Line
@@ -1924,4 +1924,9 @@ Text HLabel 4300 4200 0    50   Input ~ 0
 Green
 Wire Wire Line
 	4300 4200 4500 4200
+Wire Wire Line
+	6800 2400 6700 2400
+Connection ~ 6700 2400
+Wire Wire Line
+	6700 2400 6700 2300
 $EndSCHEMATC
