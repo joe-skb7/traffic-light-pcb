@@ -17,7 +17,7 @@ $EndDescr
 $Comp
 L Isolator:PC817 U?
 U 1 1 5C1E5D5A
-P 5100 2900
+P 5000 2900
 AR Path="/5C1E4C06/5C1E5D5A" Ref="U?"  Part="1" 
 AR Path="/5BFF5569/5C1E5D5A" Ref="U?"  Part="1" 
 AR Path="/5C0C7729/5C1E5D5A" Ref="U?"  Part="1" 
@@ -90,17 +90,17 @@ AR Path="/5C006D3E/5C1E5D5A" Ref="U17"  Part="1"
 AR Path="/5C006D42/5C1E5D5A" Ref="U19"  Part="1" 
 AR Path="/5C006D46/5C1E5D5A" Ref="U21"  Part="1" 
 AR Path="/5C006D4A/5C1E5D5A" Ref="U23"  Part="1" 
-F 0 "U23" H 5100 3225 50  0000 C CNN
-F 1 "PC817" H 5100 3134 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 4900 2700 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 5100 2900 50  0001 L CNN
-	1    5100 2900
+F 0 "U23" H 5000 3225 50  0000 C CNN
+F 1 "PC817" H 5000 3134 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4800 2700 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 5000 2900 50  0001 L CNN
+	1    5000 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5C1E5D61
-P 4650 2800
+P 4550 2800
 AR Path="/5C1E4C06/5C1E5D61" Ref="R?"  Part="1" 
 AR Path="/5BFF5569/5C1E5D61" Ref="R?"  Part="1" 
 AR Path="/5C0C7729/5C1E5D61" Ref="R?"  Part="1" 
@@ -173,178 +173,12 @@ AR Path="/5C006D3E/5C1E5D61" Ref="R39"  Part="1"
 AR Path="/5C006D42/5C1E5D61" Ref="R45"  Part="1" 
 AR Path="/5C006D46/5C1E5D61" Ref="R51"  Part="1" 
 AR Path="/5C006D4A/5C1E5D61" Ref="R57"  Part="1" 
-F 0 "R57" V 4443 2800 50  0000 C CNN
-F 1 "470R" V 4534 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 4580 2800 50  0001 C CNN
-F 3 "~" H 4650 2800 50  0001 C CNN
-	1    4650 2800
+F 0 "R57" V 4343 2800 50  0000 C CNN
+F 1 "470R" V 4434 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4480 2800 50  0001 C CNN
+F 3 "~" H 4550 2800 50  0001 C CNN
+	1    4550 2800
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C1E5D68
-P 4800 3000
-AR Path="/5C1E4C06/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF5569/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C7729/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C772D/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CA00A/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8CB/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8E6/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB905/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB914/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB923/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB932/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB941/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91DF/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E3/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E7/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EB/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EF/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F3/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F7/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FB/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FF/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF9203/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F1/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F5/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F9/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1FD/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE201/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE205/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE209/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE20D/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE211/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE215/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5B/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5F/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E63/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E67/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6B/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6F/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E73/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E77/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7B/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7F/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC1/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC5/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC9/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DCD/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD1/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD5/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD9/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DDD/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE1/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE5/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B6D/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B71/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B75/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B79/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B7D/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B81/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B85/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B89/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B8D/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B91/5C1E5D68" Ref="#PWR?"  Part="1" 
-AR Path="/5C006D26/5C1E5D68" Ref="#PWR039"  Part="1" 
-AR Path="/5C006D2A/5C1E5D68" Ref="#PWR048"  Part="1" 
-AR Path="/5C006D2E/5C1E5D68" Ref="#PWR057"  Part="1" 
-AR Path="/5C006D32/5C1E5D68" Ref="#PWR066"  Part="1" 
-AR Path="/5C006D36/5C1E5D68" Ref="#PWR075"  Part="1" 
-AR Path="/5C006D3A/5C1E5D68" Ref="#PWR084"  Part="1" 
-AR Path="/5C006D3E/5C1E5D68" Ref="#PWR093"  Part="1" 
-AR Path="/5C006D42/5C1E5D68" Ref="#PWR0102"  Part="1" 
-AR Path="/5C006D46/5C1E5D68" Ref="#PWR0111"  Part="1" 
-AR Path="/5C006D4A/5C1E5D68" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 4800 2750 50  0001 C CNN
-F 1 "GND" H 4805 2827 50  0000 C CNN
-F 2 "" H 4800 3000 50  0001 C CNN
-F 3 "" H 4800 3000 50  0001 C CNN
-	1    4800 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C1E5D6E
-P 5400 3000
-AR Path="/5C1E4C06/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF5569/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C7729/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C772D/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CA00A/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8CB/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8E6/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB905/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB914/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB923/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB932/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB941/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91DF/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E3/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E7/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EB/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EF/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F3/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F7/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FB/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FF/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF9203/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F1/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F5/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F9/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1FD/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE201/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE205/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE209/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE20D/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE211/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE215/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5B/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5F/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E63/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E67/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6B/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6F/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E73/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E77/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7B/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7F/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC1/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC5/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC9/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DCD/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD1/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD5/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD9/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DDD/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE1/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE5/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B6D/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B71/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B75/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B79/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B7D/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B81/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B85/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B89/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B8D/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B91/5C1E5D6E" Ref="#PWR?"  Part="1" 
-AR Path="/5C006D26/5C1E5D6E" Ref="#PWR041"  Part="1" 
-AR Path="/5C006D2A/5C1E5D6E" Ref="#PWR050"  Part="1" 
-AR Path="/5C006D2E/5C1E5D6E" Ref="#PWR059"  Part="1" 
-AR Path="/5C006D32/5C1E5D6E" Ref="#PWR068"  Part="1" 
-AR Path="/5C006D36/5C1E5D6E" Ref="#PWR077"  Part="1" 
-AR Path="/5C006D3A/5C1E5D6E" Ref="#PWR086"  Part="1" 
-AR Path="/5C006D3E/5C1E5D6E" Ref="#PWR095"  Part="1" 
-AR Path="/5C006D42/5C1E5D6E" Ref="#PWR0104"  Part="1" 
-AR Path="/5C006D46/5C1E5D6E" Ref="#PWR0113"  Part="1" 
-AR Path="/5C006D4A/5C1E5D6E" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 5400 2750 50  0001 C CNN
-F 1 "GND" H 5405 2827 50  0000 C CNN
-F 2 "" H 5400 3000 50  0001 C CNN
-F 3 "" H 5400 3000 50  0001 C CNN
-	1    5400 3000
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
@@ -429,91 +263,6 @@ F 3 "~" H 5500 2550 50  0001 C CNN
 	1    5500 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C1E5D7B
-P 5500 2400
-AR Path="/5C1E4C06/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF5569/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C7729/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C772D/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CA00A/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8CB/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8E6/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB905/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB914/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB923/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB932/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB941/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91DF/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E3/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E7/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EB/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EF/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F3/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F7/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FB/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FF/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF9203/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F1/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F5/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F9/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1FD/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE201/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE205/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE209/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE20D/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE211/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE215/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5B/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5F/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E63/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E67/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6B/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6F/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E73/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E77/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7B/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7F/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC1/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC5/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC9/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DCD/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD1/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD5/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD9/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DDD/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE1/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE5/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B6D/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B71/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B75/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B79/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B7D/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B81/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B85/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B89/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B8D/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B91/5C1E5D7B" Ref="#PWR?"  Part="1" 
-AR Path="/5C006D26/5C1E5D7B" Ref="#PWR043"  Part="1" 
-AR Path="/5C006D2A/5C1E5D7B" Ref="#PWR052"  Part="1" 
-AR Path="/5C006D2E/5C1E5D7B" Ref="#PWR061"  Part="1" 
-AR Path="/5C006D32/5C1E5D7B" Ref="#PWR070"  Part="1" 
-AR Path="/5C006D36/5C1E5D7B" Ref="#PWR079"  Part="1" 
-AR Path="/5C006D3A/5C1E5D7B" Ref="#PWR088"  Part="1" 
-AR Path="/5C006D3E/5C1E5D7B" Ref="#PWR097"  Part="1" 
-AR Path="/5C006D42/5C1E5D7B" Ref="#PWR0106"  Part="1" 
-AR Path="/5C006D46/5C1E5D7B" Ref="#PWR0115"  Part="1" 
-AR Path="/5C006D4A/5C1E5D7B" Ref="#PWR0124"  Part="1" 
-F 0 "#PWR0124" H 5500 2250 50  0001 C CNN
-F 1 "+5V" H 5515 2573 50  0000 C CNN
-F 2 "" H 5500 2400 50  0001 C CNN
-F 3 "" H 5500 2400 50  0001 C CNN
-	1    5500 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 2800 5400 2800
 Wire Wire Line
 	5500 2800 5500 2700
 Wire Wire Line
@@ -616,89 +365,6 @@ Wire Wire Line
 	6300 3600 6100 3600
 Wire Wire Line
 	5900 3600 5900 3300
-$Comp
-L power:GND #PWR?
-U 1 1 5C1E5D93
-P 6100 3700
-AR Path="/5C1E4C06/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF5569/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C7729/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C772D/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CA00A/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8CB/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8E6/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB905/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB914/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB923/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB932/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB941/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91DF/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E3/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E7/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EB/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EF/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F3/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F7/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FB/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FF/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF9203/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F1/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F5/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F9/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1FD/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE201/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE205/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE209/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE20D/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE211/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE215/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5B/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5F/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E63/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E67/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6B/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6F/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E73/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E77/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7B/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7F/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC1/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC5/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC9/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DCD/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD1/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD5/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD9/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DDD/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE1/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE5/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B6D/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B71/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B75/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B79/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B7D/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B81/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B85/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B89/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B8D/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B91/5C1E5D93" Ref="#PWR?"  Part="1" 
-AR Path="/5C006D26/5C1E5D93" Ref="#PWR045"  Part="1" 
-AR Path="/5C006D2A/5C1E5D93" Ref="#PWR054"  Part="1" 
-AR Path="/5C006D2E/5C1E5D93" Ref="#PWR063"  Part="1" 
-AR Path="/5C006D32/5C1E5D93" Ref="#PWR072"  Part="1" 
-AR Path="/5C006D36/5C1E5D93" Ref="#PWR081"  Part="1" 
-AR Path="/5C006D3A/5C1E5D93" Ref="#PWR090"  Part="1" 
-AR Path="/5C006D3E/5C1E5D93" Ref="#PWR099"  Part="1" 
-AR Path="/5C006D42/5C1E5D93" Ref="#PWR0108"  Part="1" 
-AR Path="/5C006D46/5C1E5D93" Ref="#PWR0117"  Part="1" 
-AR Path="/5C006D4A/5C1E5D93" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 6100 3450 50  0001 C CNN
-F 1 "GND" H 6105 3527 50  0000 C CNN
-F 2 "" H 6100 3700 50  0001 C CNN
-F 3 "" H 6100 3700 50  0001 C CNN
-	1    6100 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 3700 6100 3600
 Connection ~ 6100 3600
@@ -706,12 +372,11 @@ Wire Wire Line
 	6100 3600 5900 3600
 Wire Wire Line
 	5500 2800 5900 2800
-Connection ~ 5500 2800
 Connection ~ 5900 2800
 $Comp
 L Isolator:PC817 U?
 U 1 1 5C1E5D9F
-P 5100 4300
+P 5000 4300
 AR Path="/5C1E4C06/5C1E5D9F" Ref="U?"  Part="1" 
 AR Path="/5BFF5569/5C1E5D9F" Ref="U?"  Part="1" 
 AR Path="/5C0C7729/5C1E5D9F" Ref="U?"  Part="1" 
@@ -784,17 +449,17 @@ AR Path="/5C006D3E/5C1E5D9F" Ref="U18"  Part="1"
 AR Path="/5C006D42/5C1E5D9F" Ref="U20"  Part="1" 
 AR Path="/5C006D46/5C1E5D9F" Ref="U22"  Part="1" 
 AR Path="/5C006D4A/5C1E5D9F" Ref="U24"  Part="1" 
-F 0 "U24" H 5100 4625 50  0000 C CNN
-F 1 "PC817" H 5100 4534 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 4900 4100 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 5100 4300 50  0001 L CNN
-	1    5100 4300
+F 0 "U24" H 5000 4625 50  0000 C CNN
+F 1 "PC817" H 5000 4534 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4800 4100 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 5000 4300 50  0001 L CNN
+	1    5000 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5C1E5DA6
-P 4650 4200
+P 4550 4200
 AR Path="/5C1E4C06/5C1E5DA6" Ref="R?"  Part="1" 
 AR Path="/5BFF5569/5C1E5DA6" Ref="R?"  Part="1" 
 AR Path="/5C0C7729/5C1E5DA6" Ref="R?"  Part="1" 
@@ -867,178 +532,12 @@ AR Path="/5C006D3E/5C1E5DA6" Ref="R40"  Part="1"
 AR Path="/5C006D42/5C1E5DA6" Ref="R46"  Part="1" 
 AR Path="/5C006D46/5C1E5DA6" Ref="R52"  Part="1" 
 AR Path="/5C006D4A/5C1E5DA6" Ref="R58"  Part="1" 
-F 0 "R58" V 4443 4200 50  0000 C CNN
-F 1 "470R" V 4534 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 4580 4200 50  0001 C CNN
-F 3 "~" H 4650 4200 50  0001 C CNN
-	1    4650 4200
+F 0 "R58" V 4343 4200 50  0000 C CNN
+F 1 "470R" V 4434 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4480 4200 50  0001 C CNN
+F 3 "~" H 4550 4200 50  0001 C CNN
+	1    4550 4200
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C1E5DAD
-P 4800 4400
-AR Path="/5C1E4C06/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF5569/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C7729/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C772D/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CA00A/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8CB/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8E6/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB905/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB914/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB923/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB932/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB941/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91DF/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E3/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E7/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EB/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EF/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F3/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F7/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FB/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FF/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF9203/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F1/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F5/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F9/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1FD/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE201/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE205/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE209/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE20D/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE211/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE215/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5B/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5F/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E63/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E67/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6B/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6F/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E73/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E77/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7B/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7F/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC1/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC5/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC9/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DCD/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD1/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD5/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD9/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DDD/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE1/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE5/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B6D/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B71/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B75/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B79/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B7D/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B81/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B85/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B89/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B8D/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B91/5C1E5DAD" Ref="#PWR?"  Part="1" 
-AR Path="/5C006D26/5C1E5DAD" Ref="#PWR040"  Part="1" 
-AR Path="/5C006D2A/5C1E5DAD" Ref="#PWR049"  Part="1" 
-AR Path="/5C006D2E/5C1E5DAD" Ref="#PWR058"  Part="1" 
-AR Path="/5C006D32/5C1E5DAD" Ref="#PWR067"  Part="1" 
-AR Path="/5C006D36/5C1E5DAD" Ref="#PWR076"  Part="1" 
-AR Path="/5C006D3A/5C1E5DAD" Ref="#PWR085"  Part="1" 
-AR Path="/5C006D3E/5C1E5DAD" Ref="#PWR094"  Part="1" 
-AR Path="/5C006D42/5C1E5DAD" Ref="#PWR0103"  Part="1" 
-AR Path="/5C006D46/5C1E5DAD" Ref="#PWR0112"  Part="1" 
-AR Path="/5C006D4A/5C1E5DAD" Ref="#PWR0121"  Part="1" 
-F 0 "#PWR0121" H 4800 4150 50  0001 C CNN
-F 1 "GND" H 4805 4227 50  0000 C CNN
-F 2 "" H 4800 4400 50  0001 C CNN
-F 3 "" H 4800 4400 50  0001 C CNN
-	1    4800 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C1E5DB3
-P 5400 4400
-AR Path="/5C1E4C06/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF5569/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C7729/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C772D/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CA00A/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8CB/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8E6/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB905/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB914/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB923/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB932/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB941/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91DF/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E3/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E7/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EB/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EF/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F3/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F7/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FB/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FF/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF9203/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F1/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F5/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F9/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1FD/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE201/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE205/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE209/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE20D/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE211/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE215/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5B/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5F/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E63/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E67/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6B/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6F/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E73/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E77/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7B/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7F/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC1/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC5/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC9/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DCD/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD1/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD5/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD9/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DDD/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE1/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE5/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B6D/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B71/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B75/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B79/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B7D/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B81/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B85/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B89/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B8D/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B91/5C1E5DB3" Ref="#PWR?"  Part="1" 
-AR Path="/5C006D26/5C1E5DB3" Ref="#PWR042"  Part="1" 
-AR Path="/5C006D2A/5C1E5DB3" Ref="#PWR051"  Part="1" 
-AR Path="/5C006D2E/5C1E5DB3" Ref="#PWR060"  Part="1" 
-AR Path="/5C006D32/5C1E5DB3" Ref="#PWR069"  Part="1" 
-AR Path="/5C006D36/5C1E5DB3" Ref="#PWR078"  Part="1" 
-AR Path="/5C006D3A/5C1E5DB3" Ref="#PWR087"  Part="1" 
-AR Path="/5C006D3E/5C1E5DB3" Ref="#PWR096"  Part="1" 
-AR Path="/5C006D42/5C1E5DB3" Ref="#PWR0105"  Part="1" 
-AR Path="/5C006D46/5C1E5DB3" Ref="#PWR0114"  Part="1" 
-AR Path="/5C006D4A/5C1E5DB3" Ref="#PWR0123"  Part="1" 
-F 0 "#PWR0123" H 5400 4150 50  0001 C CNN
-F 1 "GND" H 5405 4227 50  0000 C CNN
-F 2 "" H 5400 4400 50  0001 C CNN
-F 3 "" H 5400 4400 50  0001 C CNN
-	1    5400 4400
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
@@ -1123,91 +622,6 @@ F 3 "~" H 5500 3950 50  0001 C CNN
 	1    5500 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C1E5DC0
-P 5500 3800
-AR Path="/5C1E4C06/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF5569/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C7729/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C772D/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CA00A/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8CB/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8E6/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB905/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB914/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB923/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB932/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB941/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91DF/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E3/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E7/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EB/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EF/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F3/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F7/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FB/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FF/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF9203/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F1/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F5/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F9/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1FD/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE201/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE205/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE209/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE20D/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE211/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE215/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5B/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5F/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E63/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E67/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6B/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6F/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E73/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E77/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7B/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7F/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC1/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC5/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC9/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DCD/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD1/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD5/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD9/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DDD/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE1/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE5/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B6D/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B71/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B75/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B79/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B7D/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B81/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B85/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B89/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B8D/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B91/5C1E5DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5C006D26/5C1E5DC0" Ref="#PWR044"  Part="1" 
-AR Path="/5C006D2A/5C1E5DC0" Ref="#PWR053"  Part="1" 
-AR Path="/5C006D2E/5C1E5DC0" Ref="#PWR062"  Part="1" 
-AR Path="/5C006D32/5C1E5DC0" Ref="#PWR071"  Part="1" 
-AR Path="/5C006D36/5C1E5DC0" Ref="#PWR080"  Part="1" 
-AR Path="/5C006D3A/5C1E5DC0" Ref="#PWR089"  Part="1" 
-AR Path="/5C006D3E/5C1E5DC0" Ref="#PWR098"  Part="1" 
-AR Path="/5C006D42/5C1E5DC0" Ref="#PWR0107"  Part="1" 
-AR Path="/5C006D46/5C1E5DC0" Ref="#PWR0116"  Part="1" 
-AR Path="/5C006D4A/5C1E5DC0" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 5500 3650 50  0001 C CNN
-F 1 "+5V" H 5515 3973 50  0000 C CNN
-F 2 "" H 5500 3800 50  0001 C CNN
-F 3 "" H 5500 3800 50  0001 C CNN
-	1    5500 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 4200 5400 4200
 Wire Wire Line
 	5500 4200 5500 4100
 Wire Wire Line
@@ -1310,89 +724,6 @@ Wire Wire Line
 	6300 5000 6100 5000
 Wire Wire Line
 	5900 5000 5900 4700
-$Comp
-L power:GND #PWR?
-U 1 1 5C1E5DD8
-P 6100 5100
-AR Path="/5C1E4C06/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF5569/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C7729/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C0C772D/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CA00A/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8CB/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB8E6/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB905/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB914/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB923/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB932/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C0CB941/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91DF/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E3/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91E7/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EB/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91EF/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F3/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91F7/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FB/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF91FF/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFF9203/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F1/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F5/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1F9/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE1FD/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE201/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE205/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE209/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE20D/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE211/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5BFFE215/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5B/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E5F/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E63/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E67/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6B/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E6F/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E73/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E77/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7B/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C003E7F/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC1/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC5/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DC9/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DCD/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD1/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD5/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DD9/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DDD/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE1/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C004DE5/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B6D/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B71/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B75/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B79/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B7D/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B81/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B85/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B89/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B8D/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C005B91/5C1E5DD8" Ref="#PWR?"  Part="1" 
-AR Path="/5C006D26/5C1E5DD8" Ref="#PWR046"  Part="1" 
-AR Path="/5C006D2A/5C1E5DD8" Ref="#PWR055"  Part="1" 
-AR Path="/5C006D2E/5C1E5DD8" Ref="#PWR064"  Part="1" 
-AR Path="/5C006D32/5C1E5DD8" Ref="#PWR073"  Part="1" 
-AR Path="/5C006D36/5C1E5DD8" Ref="#PWR082"  Part="1" 
-AR Path="/5C006D3A/5C1E5DD8" Ref="#PWR091"  Part="1" 
-AR Path="/5C006D3E/5C1E5DD8" Ref="#PWR0100"  Part="1" 
-AR Path="/5C006D42/5C1E5DD8" Ref="#PWR0109"  Part="1" 
-AR Path="/5C006D46/5C1E5DD8" Ref="#PWR0118"  Part="1" 
-AR Path="/5C006D4A/5C1E5DD8" Ref="#PWR0127"  Part="1" 
-F 0 "#PWR0127" H 6100 4850 50  0001 C CNN
-F 1 "GND" H 6105 4927 50  0000 C CNN
-F 2 "" H 6100 5100 50  0001 C CNN
-F 3 "" H 6100 5100 50  0001 C CNN
-	1    6100 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 5100 6100 5000
 Connection ~ 6100 5000
@@ -1400,7 +731,6 @@ Wire Wire Line
 	6100 5000 5900 5000
 Wire Wire Line
 	5500 4200 5900 4200
-Connection ~ 5500 4200
 Connection ~ 5900 4200
 $Comp
 L Transistor_BJT:BC847 Q?
@@ -1883,17 +1213,17 @@ AR Path="/5C005B85/5C1E5E07" Ref="#PWR?"  Part="1"
 AR Path="/5C005B89/5C1E5E07" Ref="#PWR?"  Part="1" 
 AR Path="/5C005B8D/5C1E5E07" Ref="#PWR?"  Part="1" 
 AR Path="/5C005B91/5C1E5E07" Ref="#PWR?"  Part="1" 
-AR Path="/5C006D26/5C1E5E07" Ref="#PWR047"  Part="1" 
-AR Path="/5C006D2A/5C1E5E07" Ref="#PWR056"  Part="1" 
-AR Path="/5C006D2E/5C1E5E07" Ref="#PWR065"  Part="1" 
-AR Path="/5C006D32/5C1E5E07" Ref="#PWR074"  Part="1" 
-AR Path="/5C006D36/5C1E5E07" Ref="#PWR083"  Part="1" 
-AR Path="/5C006D3A/5C1E5E07" Ref="#PWR092"  Part="1" 
-AR Path="/5C006D3E/5C1E5E07" Ref="#PWR0101"  Part="1" 
-AR Path="/5C006D42/5C1E5E07" Ref="#PWR0110"  Part="1" 
-AR Path="/5C006D46/5C1E5E07" Ref="#PWR0119"  Part="1" 
-AR Path="/5C006D4A/5C1E5E07" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 6700 2150 50  0001 C CNN
+AR Path="/5C006D26/5C1E5E07" Ref="#PWR049"  Part="1" 
+AR Path="/5C006D2A/5C1E5E07" Ref="#PWR058"  Part="1" 
+AR Path="/5C006D2E/5C1E5E07" Ref="#PWR067"  Part="1" 
+AR Path="/5C006D32/5C1E5E07" Ref="#PWR076"  Part="1" 
+AR Path="/5C006D36/5C1E5E07" Ref="#PWR085"  Part="1" 
+AR Path="/5C006D3A/5C1E5E07" Ref="#PWR094"  Part="1" 
+AR Path="/5C006D3E/5C1E5E07" Ref="#PWR0103"  Part="1" 
+AR Path="/5C006D42/5C1E5E07" Ref="#PWR0112"  Part="1" 
+AR Path="/5C006D46/5C1E5E07" Ref="#PWR0121"  Part="1" 
+AR Path="/5C006D4A/5C1E5E07" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 6700 2150 50  0001 C CNN
 F 1 "+12V" H 6715 2473 50  0000 C CNN
 F 2 "" H 6700 2300 50  0001 C CNN
 F 3 "" H 6700 2300 50  0001 C CNN
@@ -1916,17 +1246,315 @@ Wire Wire Line
 	6700 2600 6800 2600
 Wire Wire Line
 	6700 2600 6700 2400
-Text HLabel 4300 2800 0    50   Input ~ 0
+Text HLabel 4200 2800 0    50   Input ~ 0
 Red
 Wire Wire Line
-	4300 2800 4500 2800
-Text HLabel 4300 4200 0    50   Input ~ 0
+	4200 2800 4400 2800
+Text HLabel 4200 4200 0    50   Input ~ 0
 Green
 Wire Wire Line
-	4300 4200 4500 4200
+	4200 4200 4400 4200
 Wire Wire Line
 	6800 2400 6700 2400
 Connection ~ 6700 2400
 Wire Wire Line
 	6700 2400 6700 2300
+$Comp
+L power:GNDD #PWR041
+U 1 1 5C073719
+P 4700 3000
+AR Path="/5C006D26/5C073719" Ref="#PWR041"  Part="1" 
+AR Path="/5C006D32/5C073719" Ref="#PWR068"  Part="1" 
+AR Path="/5C006D2A/5C073719" Ref="#PWR050"  Part="1" 
+AR Path="/5C006D2E/5C073719" Ref="#PWR059"  Part="1" 
+AR Path="/5C006D36/5C073719" Ref="#PWR077"  Part="1" 
+AR Path="/5C006D3A/5C073719" Ref="#PWR086"  Part="1" 
+AR Path="/5C006D3E/5C073719" Ref="#PWR095"  Part="1" 
+AR Path="/5C006D42/5C073719" Ref="#PWR0104"  Part="1" 
+AR Path="/5C006D46/5C073719" Ref="#PWR0113"  Part="1" 
+AR Path="/5C006D4A/5C073719" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 4700 2750 50  0001 C CNN
+F 1 "GNDD" H 4704 2845 50  0000 C CNN
+F 2 "" H 4700 3000 50  0001 C CNN
+F 3 "" H 4700 3000 50  0001 C CNN
+	1    4700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR042
+U 1 1 5C0737B9
+P 4700 4400
+AR Path="/5C006D26/5C0737B9" Ref="#PWR042"  Part="1" 
+AR Path="/5C006D32/5C0737B9" Ref="#PWR069"  Part="1" 
+AR Path="/5C006D2A/5C0737B9" Ref="#PWR051"  Part="1" 
+AR Path="/5C006D2E/5C0737B9" Ref="#PWR060"  Part="1" 
+AR Path="/5C006D36/5C0737B9" Ref="#PWR078"  Part="1" 
+AR Path="/5C006D3A/5C0737B9" Ref="#PWR087"  Part="1" 
+AR Path="/5C006D3E/5C0737B9" Ref="#PWR096"  Part="1" 
+AR Path="/5C006D42/5C0737B9" Ref="#PWR0105"  Part="1" 
+AR Path="/5C006D46/5C0737B9" Ref="#PWR0114"  Part="1" 
+AR Path="/5C006D4A/5C0737B9" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 4700 4150 50  0001 C CNN
+F 1 "GNDD" H 4704 4245 50  0000 C CNN
+F 2 "" H 4700 4400 50  0001 C CNN
+F 3 "" H 4700 4400 50  0001 C CNN
+	1    4700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR047
+U 1 1 5C07390A
+P 6100 3700
+AR Path="/5C006D26/5C07390A" Ref="#PWR047"  Part="1" 
+AR Path="/5C006D32/5C07390A" Ref="#PWR074"  Part="1" 
+AR Path="/5C006D2A/5C07390A" Ref="#PWR056"  Part="1" 
+AR Path="/5C006D2E/5C07390A" Ref="#PWR065"  Part="1" 
+AR Path="/5C006D36/5C07390A" Ref="#PWR083"  Part="1" 
+AR Path="/5C006D3A/5C07390A" Ref="#PWR092"  Part="1" 
+AR Path="/5C006D3E/5C07390A" Ref="#PWR0101"  Part="1" 
+AR Path="/5C006D42/5C07390A" Ref="#PWR0110"  Part="1" 
+AR Path="/5C006D46/5C07390A" Ref="#PWR0119"  Part="1" 
+AR Path="/5C006D4A/5C07390A" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 6100 3500 50  0001 C CNN
+F 1 "GNDPWR" H 6104 3546 50  0000 C CNN
+F 2 "" H 6100 3650 50  0001 C CNN
+F 3 "" H 6100 3650 50  0001 C CNN
+	1    6100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR048
+U 1 1 5C073944
+P 6100 5100
+AR Path="/5C006D26/5C073944" Ref="#PWR048"  Part="1" 
+AR Path="/5C006D32/5C073944" Ref="#PWR075"  Part="1" 
+AR Path="/5C006D2A/5C073944" Ref="#PWR057"  Part="1" 
+AR Path="/5C006D2E/5C073944" Ref="#PWR066"  Part="1" 
+AR Path="/5C006D36/5C073944" Ref="#PWR084"  Part="1" 
+AR Path="/5C006D3A/5C073944" Ref="#PWR093"  Part="1" 
+AR Path="/5C006D3E/5C073944" Ref="#PWR0102"  Part="1" 
+AR Path="/5C006D42/5C073944" Ref="#PWR0111"  Part="1" 
+AR Path="/5C006D46/5C073944" Ref="#PWR0120"  Part="1" 
+AR Path="/5C006D4A/5C073944" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 6100 4900 50  0001 C CNN
+F 1 "GNDPWR" H 6104 4946 50  0000 C CNN
+F 2 "" H 6100 5050 50  0001 C CNN
+F 3 "" H 6100 5050 50  0001 C CNN
+	1    6100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR043
+U 1 1 5C0976EF
+P 5300 3000
+AR Path="/5C006D26/5C0976EF" Ref="#PWR043"  Part="1" 
+AR Path="/5C006D32/5C0976EF" Ref="#PWR070"  Part="1" 
+AR Path="/5C006D2A/5C0976EF" Ref="#PWR052"  Part="1" 
+AR Path="/5C006D2E/5C0976EF" Ref="#PWR061"  Part="1" 
+AR Path="/5C006D36/5C0976EF" Ref="#PWR079"  Part="1" 
+AR Path="/5C006D3A/5C0976EF" Ref="#PWR088"  Part="1" 
+AR Path="/5C006D3E/5C0976EF" Ref="#PWR097"  Part="1" 
+AR Path="/5C006D42/5C0976EF" Ref="#PWR0106"  Part="1" 
+AR Path="/5C006D46/5C0976EF" Ref="#PWR0115"  Part="1" 
+AR Path="/5C006D4A/5C0976EF" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 5300 2800 50  0001 C CNN
+F 1 "GNDPWR" H 5304 2846 50  0000 C CNN
+F 2 "" H 5300 2950 50  0001 C CNN
+F 3 "" H 5300 2950 50  0001 C CNN
+	1    5300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR044
+U 1 1 5C097714
+P 5300 4400
+AR Path="/5C006D26/5C097714" Ref="#PWR044"  Part="1" 
+AR Path="/5C006D32/5C097714" Ref="#PWR071"  Part="1" 
+AR Path="/5C006D2A/5C097714" Ref="#PWR053"  Part="1" 
+AR Path="/5C006D2E/5C097714" Ref="#PWR062"  Part="1" 
+AR Path="/5C006D36/5C097714" Ref="#PWR080"  Part="1" 
+AR Path="/5C006D3A/5C097714" Ref="#PWR089"  Part="1" 
+AR Path="/5C006D3E/5C097714" Ref="#PWR098"  Part="1" 
+AR Path="/5C006D42/5C097714" Ref="#PWR0107"  Part="1" 
+AR Path="/5C006D46/5C097714" Ref="#PWR0116"  Part="1" 
+AR Path="/5C006D4A/5C097714" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 5300 4200 50  0001 C CNN
+F 1 "GNDPWR" H 5304 4246 50  0000 C CNN
+F 2 "" H 5300 4350 50  0001 C CNN
+F 3 "" H 5300 4350 50  0001 C CNN
+	1    5300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C09834C
+P 5500 2400
+AR Path="/5C1E4C06/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF5569/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C0C7729/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C0C772D/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CA00A/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB8CB/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB8E6/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB905/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB914/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB923/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB932/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB941/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91DF/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91E3/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91E7/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91EB/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91EF/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91F3/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91F7/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91FB/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91FF/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF9203/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE1F1/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE1F5/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE1F9/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE1FD/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE201/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE205/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE209/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE20D/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE211/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE215/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E5B/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E5F/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E63/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E67/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E6B/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E6F/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E73/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E77/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E7B/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E7F/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DC1/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DC5/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DC9/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DCD/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DD1/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DD5/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DD9/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DDD/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DE1/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DE5/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B6D/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B71/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B75/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B79/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B7D/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B81/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B85/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B89/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B8D/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B91/5C09834C" Ref="#PWR?"  Part="1" 
+AR Path="/5C006D26/5C09834C" Ref="#PWR045"  Part="1" 
+AR Path="/5C006D2A/5C09834C" Ref="#PWR054"  Part="1" 
+AR Path="/5C006D2E/5C09834C" Ref="#PWR063"  Part="1" 
+AR Path="/5C006D32/5C09834C" Ref="#PWR072"  Part="1" 
+AR Path="/5C006D36/5C09834C" Ref="#PWR081"  Part="1" 
+AR Path="/5C006D3A/5C09834C" Ref="#PWR090"  Part="1" 
+AR Path="/5C006D3E/5C09834C" Ref="#PWR099"  Part="1" 
+AR Path="/5C006D42/5C09834C" Ref="#PWR0108"  Part="1" 
+AR Path="/5C006D46/5C09834C" Ref="#PWR0117"  Part="1" 
+AR Path="/5C006D4A/5C09834C" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 5500 2250 50  0001 C CNN
+F 1 "+12V" H 5515 2573 50  0000 C CNN
+F 2 "" H 5500 2400 50  0001 C CNN
+F 3 "" H 5500 2400 50  0001 C CNN
+	1    5500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C0983F2
+P 5500 3800
+AR Path="/5C1E4C06/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF5569/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C0C7729/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C0C772D/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CA00A/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB8CB/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB8E6/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB905/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB914/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB923/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB932/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C0CB941/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91DF/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91E3/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91E7/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91EB/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91EF/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91F3/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91F7/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91FB/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF91FF/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFF9203/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE1F1/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE1F5/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE1F9/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE1FD/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE201/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE205/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE209/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE20D/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE211/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BFFE215/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E5B/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E5F/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E63/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E67/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E6B/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E6F/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E73/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E77/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E7B/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C003E7F/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DC1/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DC5/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DC9/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DCD/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DD1/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DD5/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DD9/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DDD/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DE1/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C004DE5/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B6D/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B71/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B75/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B79/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B7D/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B81/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B85/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B89/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B8D/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C005B91/5C0983F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C006D26/5C0983F2" Ref="#PWR046"  Part="1" 
+AR Path="/5C006D2A/5C0983F2" Ref="#PWR055"  Part="1" 
+AR Path="/5C006D2E/5C0983F2" Ref="#PWR064"  Part="1" 
+AR Path="/5C006D32/5C0983F2" Ref="#PWR073"  Part="1" 
+AR Path="/5C006D36/5C0983F2" Ref="#PWR082"  Part="1" 
+AR Path="/5C006D3A/5C0983F2" Ref="#PWR091"  Part="1" 
+AR Path="/5C006D3E/5C0983F2" Ref="#PWR0100"  Part="1" 
+AR Path="/5C006D42/5C0983F2" Ref="#PWR0109"  Part="1" 
+AR Path="/5C006D46/5C0983F2" Ref="#PWR0118"  Part="1" 
+AR Path="/5C006D4A/5C0983F2" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 5500 3650 50  0001 C CNN
+F 1 "+12V" H 5515 3973 50  0000 C CNN
+F 2 "" H 5500 3800 50  0001 C CNN
+F 3 "" H 5500 3800 50  0001 C CNN
+	1    5500 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2800 5500 2800
+Connection ~ 5500 2800
+Wire Wire Line
+	5300 4200 5500 4200
+Connection ~ 5500 4200
 $EndSCHEMATC

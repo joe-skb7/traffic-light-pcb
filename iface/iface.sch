@@ -14,94 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5BF82051
-P 850 6500
-F 0 "H1" H 950 6551 50  0000 L CNN
-F 1 "MountingHole_Pad" H 950 6460 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 850 6500 50  0001 C CNN
-F 3 "~" H 850 6500 50  0001 C CNN
-	1    850  6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5BF8271A
-P 1850 6500
-F 0 "H3" H 1950 6551 50  0000 L CNN
-F 1 "MountingHole_Pad" H 1950 6460 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1850 6500 50  0001 C CNN
-F 3 "~" H 1850 6500 50  0001 C CNN
-	1    1850 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5BF828B0
-P 850 7300
-F 0 "H2" H 950 7351 50  0000 L CNN
-F 1 "MountingHole_Pad" H 950 7260 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 850 7300 50  0001 C CNN
-F 3 "~" H 850 7300 50  0001 C CNN
-	1    850  7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5BF829D2
-P 1850 7300
-F 0 "H4" H 1950 7351 50  0000 L CNN
-F 1 "MountingHole_Pad" H 1950 7260 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1850 7300 50  0001 C CNN
-F 3 "~" H 1850 7300 50  0001 C CNN
-	1    1850 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5BF8382B
-P 1850 6600
-F 0 "#PWR03" H 1850 6350 50  0001 C CNN
-F 1 "GND" H 1855 6427 50  0000 C CNN
-F 2 "" H 1850 6600 50  0001 C CNN
-F 3 "" H 1850 6600 50  0001 C CNN
-	1    1850 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5BF838D4
-P 850 6600
-F 0 "#PWR01" H 850 6350 50  0001 C CNN
-F 1 "GND" H 855 6427 50  0000 C CNN
-F 2 "" H 850 6600 50  0001 C CNN
-F 3 "" H 850 6600 50  0001 C CNN
-	1    850  6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5BF8397D
-P 850 7400
-F 0 "#PWR02" H 850 7150 50  0001 C CNN
-F 1 "GND" H 855 7227 50  0000 C CNN
-F 2 "" H 850 7400 50  0001 C CNN
-F 3 "" H 850 7400 50  0001 C CNN
-	1    850  7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5BF83A26
-P 1850 7400
-F 0 "#PWR04" H 1850 7150 50  0001 C CNN
-F 1 "GND" H 1855 7227 50  0000 C CNN
-F 2 "" H 1850 7400 50  0001 C CNN
-F 3 "" H 1850 7400 50  0001 C CNN
-	1    1850 7400
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 4500 1700 700  500 
 U 5C004DBD
@@ -335,23 +247,23 @@ $EndSheet
 $Comp
 L Graphic:SYM_ESD_Large SYM1
 U 1 1 5C07C785
-P 1000 5750
-F 0 "SYM1" H 1000 5950 50  0001 C CNN
-F 1 "SYM_ESD_Large" H 1000 5500 50  0001 C CNN
-F 2 "Symbol:ESD-Logo_22x20mm_SilkScreen" H 995 5720 50  0001 C CNN
-F 3 "~" H 995 5720 50  0001 C CNN
-	1    1000 5750
+P 2700 3300
+F 0 "SYM1" H 2700 3500 50  0001 C CNN
+F 1 "SYM_ESD_Large" H 2700 3050 50  0001 C CNN
+F 2 "Symbol:ESD-Logo_22x20mm_SilkScreen" H 2695 3270 50  0001 C CNN
+F 3 "~" H 2695 3270 50  0001 C CNN
+	1    2700 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small SYM2
 U 1 1 5C032335
-P 1600 5800
-F 0 "SYM2" H 1600 6075 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 1600 5575 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo_19x20mm_SilkScreen" H 1600 5800 50  0001 C CNN
-F 3 "~" H 1600 5800 50  0001 C CNN
-	1    1600 5800
+P 3300 3350
+F 0 "SYM2" H 3300 3625 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 3300 3125 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_19x20mm_SilkScreen" H 3300 3350 50  0001 C CNN
+F 3 "~" H 3300 3350 50  0001 C CNN
+	1    3300 3350
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
