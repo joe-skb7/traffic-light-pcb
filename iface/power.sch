@@ -292,8 +292,8 @@ F 3 "" H 5300 2250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 2250 5100 2250
-Text Notes 4700 1400 0    50   ~ 0
-Notes:\n\n1. If LEDs have forward voltage higher than 2.2V, input voltage (J1) should be +15V \n2. Use only center positive adapters; there is no reverse voltage protection in this scheme
+Text Notes 4400 1550 0    50   ~ 0
+NOTE: If LEDs have forward voltage higher than 2.2V, input voltage (J1) should be +15V
 $Comp
 L Switch:SW_DPDT_x2 SW1
 U 2 1 5C05581D
