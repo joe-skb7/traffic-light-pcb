@@ -7,4 +7,3 @@ Errata list (for interface board)
    signal plane segment)
 4. Add some signature to the board
 5. Switch off 5V as well (on DPDT)
-6. Add description of used Fuse model: MINISMDC050-2 (450691-000-Raychem)

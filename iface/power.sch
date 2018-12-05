@@ -540,9 +540,10 @@ L Device:Polyfuse F1
 U 1 1 5C061F64
 P 5650 3950
 F 0 "F1" V 5425 3950 50  0000 C CNN
-F 1 "Polyfuse" V 5516 3950 50  0000 C CNN
+F 1 "miniSMDC050" V 5516 3950 50  0000 C CNN
 F 2 "Fuse:Fuse_1812_4532Metric" H 5700 3750 50  0001 L CNN
 F 3 "~" H 5650 3950 50  0001 C CNN
+F 4 "Polyfuse, 500mA" V 5750 3950 50  0000 C CNN "Description"
 	1    5650 3950
 	0    1    1    0   
 $EndComp
