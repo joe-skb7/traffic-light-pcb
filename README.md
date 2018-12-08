@@ -4,6 +4,20 @@ Hardware files for traffic light model and interfacing board.
 
 Corresponding software for controlling the interface board can be found at [1].
 
+## Photo
+
+Interfacing board, top view:
+
+![Image](doc/photo/iface-board-top.png?raw=true "Interfacing Board, Top View")
+
+Interfacing board, bottom view:
+
+![Image](doc/photo/iface-board-bottom.png?raw=true "Interfacing Board, Bottom View")
+
+Traffic light board:
+
+![Image](doc/photo/traffic-light-board.png?raw=true "Traffic Light Board")
+
 ## Overview
 
 This repository consists of two KiCad projects:
