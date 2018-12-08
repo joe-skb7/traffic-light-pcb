@@ -1,4 +1,4 @@
-# traffic-light
+# "Traffic Light" system: hardware design files
 
 Hardware files for traffic light model and interfacing board.
 
