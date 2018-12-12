@@ -1,11 +1,15 @@
-Errata list (for interface board)
-=================================
+TODO/Errata list (for interface board)
+======================================
 
 1. Wrong DC jack footprint; measure and create new one (or find existing)
 2. Some holes diameter (not drill) are too small for toner transfer method
 3. For copper pour, grounds must be separated (power plane segment and
    signal plane segment)
-4. Add some signature to the board
+4. Add some signature to the board (author, company, board name)
 5. Switch off 5V as well (on DPDT)
 6. Add 1A fuse (or polyfuse) (for 12V line); the total current is 0.4A (when USB
    is not connected, all LEDs are ON).
+7. Rework extension interface
+   - we need GND for external usage
+   - disable drivers if we want to use the board as GPIO expander?
+   - what if we want to connect 6 more external LED drivers?
