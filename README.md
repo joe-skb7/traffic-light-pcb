@@ -29,6 +29,8 @@ This repository consists of two KiCad projects:
    - connect it to up to 10 traffic light boards (via phone cable) from other
      side
 
+Kicad v5.0.1 was used.
+
 You can find exported schematics in PDF format in `doc/output/` directory.
 
 Once connected, use libtrl [1] to control traffic light boards via interface
